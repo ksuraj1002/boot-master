@@ -2,9 +2,10 @@ package com.boot.formbased.auth.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 //to scan (@EntityScan) the package for utilize the entities of other modules
-//@EntityScan(basePackages = {"com.boot.master.model"}) 
+@EntityScan(basePackages = {"com.boot.master.model"}) 
 @SpringBootApplication
 public class BootFormBasedAuthApplication {
 

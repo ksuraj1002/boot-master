@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: ksuraj1002
+Build-Jdk: 17.0.6
+Implementation-Title: boot-master-core
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.boot.master.core
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/boot-master/boot-master-core
+Created-By: Maven Integration for Eclipse
+
